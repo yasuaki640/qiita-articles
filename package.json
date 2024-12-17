@@ -14,6 +14,6 @@
   "author": "yasuaki640",
   "license": "ISC",
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.4.0"
+    "@qiita/qiita-cli": "^1.6.1"
   }
 }
