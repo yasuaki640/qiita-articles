@@ -85,6 +85,7 @@ s=5;r=propose;fmt=binary_concept;idea:encode_fizzbuzz_as_bits;3=01,5=10,15=11,el
 ```
 
 **Gemini:**
+
 ```
 Agreed. The bitwise encoding concept for FizzBuzz is sound and efficient.
 
