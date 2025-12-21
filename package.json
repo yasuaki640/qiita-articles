@@ -6,7 +6,9 @@
   "scripts": {
     "preview": "qiita preview",
     "new": "qiita new",
-    "publish": "qiita publish --all"
+    "publish": "qiita publish --all",
+    "format": "prettier --write '**/*.md'",
+    "format:check": "prettier --check '**/*.md'"
   },
   "keywords": [
     "qiita"
@@ -14,6 +16,7 @@
   "author": "yasuaki640",
   "license": "ISC",
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.6.1"
+    "@qiita/qiita-cli": "^1.6.1",
+    "prettier": "^3.7.4"
   }
 }
