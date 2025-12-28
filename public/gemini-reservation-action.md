@@ -1,14 +1,14 @@
 ---
 title: 三日坊主をハックする。Gemini「予約アクション」で毎朝のインプットを自動化した話
 tags:
-  - Gemini
   - AI
-  - 生産性向上
-  - 習慣化
   - 情報収集
+  - 習慣化
+  - 生産性向上
+  - Gemini
 private: true
-updated_at: ""
-id: null
+updated_at: '2025-12-28T17:42:54+09:00'
+id: ec2545c5334e887d021d
 organization_url_name: null
 slide: false
 ignorePublish: false
