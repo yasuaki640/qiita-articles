@@ -6,9 +6,9 @@ tags:
   - 習慣化
   - 生産性向上
   - Gemini
-private: true
-updated_at: '2025-12-28T17:42:54+09:00'
-id: ec2545c5334e887d021d
+private: false
+updated_at: '2025-12-28T18:41:17+09:00'
+id: 40606af1a8b5a668f7b9
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -26,31 +26,30 @@ ignorePublish: false
 
 ## Xをダラダラ見る時代
 
-最初は多くのエンジニアと同じく、Xで技術情報を追っていました。
+最初は、Xで技術情報を追っていました。
 
 ### 問題点
 
 - ノイズが多すぎる（炎上、ポエム、広告...）
-- 気づいたら1時間経ってる
 - 結局何をインプットしたか覚えていない
 
 ## Slack RSS時代
 
-次に試したのが、SlackにRSSフィードを流し込
-む方法。Zenn、Qiita、はてなブックマーク、PublicKeyなどを登録し、朝に流し読みして気になった記事をXに投稿する運用にしました。
+次に試したのが、SlackにRSSフィードを流し込む方法。
 
-![SlackにRSSフィードを流し込んでいた頃](img_4.png)
+Zenn、Qiita、はてなブックマーク、PublicKeyなどを登録し、朝に流し読みして気になった記事をXに投稿する運用にしました。
+
+![SlackにRSSフィードを流し込んでいた頃](https://raw.githubusercontent.com/yasuaki640/qiita-articles/main/public/img_4.png)
 
 ### 改善した点
 
-- ノイズは減った
+- Xで流れてくるような、ノイズは格段に減った。
 - 「投稿する」という行動でインプットの証跡が残る
 
 ### 残った課題
 
-- 情報ソースが日本語圏に偏る
+- 自分の知っているフィード(つまりソース)に偏る。
 - 海外の最新動向が追いづらい
-- ソフトスキルや業界動向系の記事が弱い
 - 結局、毎朝Slackを開いて読む「意志の力」が必要
 
 # 解決策：Gemini「予約アクション」
@@ -61,7 +60,7 @@ ignorePublish: false
 
 実行結果はスマホに通知が届くので、「Geminiを開く」という行動すら不要。
 
-![予約アクションマネージャーの画面](img.png)
+![予約アクションマネージャーの画面](https://raw.githubusercontent.com/yasuaki640/qiita-articles/main/public/img.png)
 
 ## 私が設定したプロンプト
 
@@ -96,21 +95,17 @@ ignorePublish: false
 ## After
 
 - 朝起きる → iPhoneの通知をタップ → 要約を読む（やる気不要）
-- 世界中の技術トレンドが30秒で把握できる
 - 気になれば、そのままGeminiとの会話で深堀りできる
 
-![iPhoneに届いたGeminiからの通知](img_3.png)
+![iPhoneに届いたGeminiからの通知](https://raw.githubusercontent.com/yasuaki640/qiita-articles/main/public/img_3.png)
 
 # 深堀りもできる
 
 予約アクションの強みは、**配信されたニュースをそのまま深堀りできる**ことです。
 
-![ニュースに出てきた人物について深堀りしている様子](img_5.png)
+![ニュースに出てきた人物について深堀りしている様子](https://raw.githubusercontent.com/yasuaki640/qiita-articles/main/public/img_5.png)
 
 気になった記事があれば、そのまま「この人誰？」「もっと詳しく」と聞くだけ。**ニュースの表面だけでなく、文脈まで理解できる**のが、単なるRSSリーダーとの決定的な違いです。
-
-実際の会話履歴はこちらで公開しています：
-https://gemini.google.com/share/4cc44d42712b
 
 # まとめ
 
