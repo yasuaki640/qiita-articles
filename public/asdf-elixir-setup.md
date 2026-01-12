@@ -7,7 +7,7 @@ tags:
   - Elixir
   - asdf
 private: false
-updated_at: '2026-01-13T08:20:58+09:00'
+updated_at: '2026-01-13T08:24:22+09:00'
 id: 1d9d392b40ef721963f8
 organization_url_name: null
 slide: false
@@ -23,7 +23,7 @@ asdfでElixirを入れるとき、Erlangも一緒に入れる必要がありま�
 ```bash
 asdf plugin add erlang
 asdf install erlang 27.2
-asdf global erlang 27.2
+asdf set --home erlang 27.2
 ```
 
 ### 2. Elixirをインストール
@@ -31,7 +31,7 @@ asdf global erlang 27.2
 ```bash
 asdf plugin add elixir
 asdf install elixir 1.18.1-otp-27
-asdf global elixir 1.18.1-otp-27
+asdf set --home elixir 1.18.1-otp-27
 ```
 
 ### 3. 動作確認
