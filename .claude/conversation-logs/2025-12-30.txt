@@ -1,8 +1,0 @@
-[A]
-完了しました！
-
-```
-commit: Gemini予約アクション記事を公開、画像URLをGitHub rawに変更
-push: main -> origin/main (079e77a)
-```
-
