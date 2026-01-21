@@ -7,9 +7,9 @@ tags:
   - Elixir
   - asdf
 private: false
-updated_at: '2026-01-13T08:24:22+09:00'
+updated_at: '2026-01-13T14:52:13+09:00'
 id: 1d9d392b40ef721963f8
-organization_url_name: null
+organization_url_name: dip-net
 slide: false
 ignorePublish: false
 ---

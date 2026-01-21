@@ -7,7 +7,7 @@ tags:
   - AtomVM
   - Devbox
 private: false
-updated_at: '2026-01-21T09:26:36+09:00'
+updated_at: '2026-01-22T08:48:12+09:00'
 id: 9cdcbc8f84d8eb979b1a
 organization_url_name: null
 slide: false
@@ -72,7 +72,7 @@ devbox add cmake@latest gperf@latest github:NixOS/nixpkgs/31cab29#zlib.dev mbedt
 
 - **zlib**: `zlib@latest`ではなく`github:NixOS/nixpkgs/31cab29#zlib.dev`を使用。開発用ヘッダー（zlib.h）を含むパッケージが必要なため。
 - **Elixir**: `elixir@latest`ではなく`github:NixOS/nixpkgs/31cab29#elixir`を使用。DevBoxのElixirプラグインにバグがあるため。詳細は[こちらのPR](https://github.com/jetify-com/devbox/pull/2764)を参照。
-  :::
+:::
 
 ## ビルド
 
